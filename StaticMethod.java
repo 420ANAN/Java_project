@@ -28,8 +28,10 @@ public class StaticMethod {
         return a--;
     }
 
-
-
+    public static void publish() {
+        // Implementation for publishing the branch
+        System.out.println("Publishing the branch...");
+    }
 
     public static void main (String args[]){
 
