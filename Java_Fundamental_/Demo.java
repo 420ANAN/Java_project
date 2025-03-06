@@ -1,4 +1,4 @@
-package Java_Fundamental;
+package Java_Fundamental_;
 
 public  class Demo {
      public static int staticVariable = 0;
