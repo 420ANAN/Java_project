@@ -8,10 +8,13 @@ public class IterateMultiDimensionalArray {
         };
 
         // Use nested for-each loops to iterate through the 2D array
-        for (int[] row : matrix) {
-           
-                System.out.print( row + " ");
-           
+        for (int[] row : matrix) { //row as a iteration variable is a 1D array
+            for (int element : row) { //element as a iteration variable is an integer
+                // Print each element
+                System.out.print(element + " ");
+            }
+            // Print a new line after each row
+            System.out.println();
         }
     }
 }
